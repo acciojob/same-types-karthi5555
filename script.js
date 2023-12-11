@@ -5,8 +5,11 @@ function isSameType(value1, value2) {
     return true;
   }
 
-  // Check if the types are the same
-  return typeof value1 === typeof value2;
+  // Check if the types are the sam
+	let type_1 = typeof value1
+	let type_2 = typeof value2
+	
+  return type_1 === type_2;
 }
 
 // do not change the code below.
